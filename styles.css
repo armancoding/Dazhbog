@@ -1,0 +1,118 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-color:rgb(212, 212, 212);
+    color: rgb(46, 0, 0);
+    font-family: "Bahnschrift condensed", sans-serif;
+    background-image:   linear-gradient(to bottom, rgba(144, 53, 53, 0.52), rgba(212, 212, 212, 0.73)), 
+                        url("https://reliantconstruction.net/wp-content/uploads/2017/08/home-blueprints.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+a:link
+{
+    color:rgb(144, 85, 53);
+}
+a:visited
+{
+    color:rgba(144, 85, 53, 0.699);
+}
+a:hover
+{
+    color:rgb(168, 98, 60)
+}
+
+.logo
+{
+    height: 50px;
+    width: auto;
+}
+
+.tableHeadMenu
+{
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    height: 50px;
+    width: 98%;
+}
+
+.headMenu
+{
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+}
+
+.headMenu button
+{
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 0%;
+    border: none;
+    outline: none;
+}
+
+.headMenu button:hover
+{
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 0%;
+    border: none;
+    outline: none;
+    color: rgb(230, 225, 225);
+    background-color:rgb(144, 53, 53);
+}
+
+.bottomSection
+{
+    background:linear-gradient(to bottom, rgb(100, 180, 190), rgb(150,200,210));
+}
+
+.tabs
+{
+    margin: auto;
+    width: 100%;
+    background-color:rgba(200, 190, 190, 0.8);
+    padding: 2%;
+}
+
+
+
+@media (max-width: 500px) 
+{
+    td 
+    { 
+        float:none; 
+        display:block; 
+    } 
+
+    th
+    {
+        display:block
+    }
+    
+    .headMenu button
+    {
+        width: 100%;
+    }
+    .headMenu
+    {
+        margin-left: 80%;
+        position: fixed;
+        height: 50px;
+        width:10%;
+    }
+}
+
