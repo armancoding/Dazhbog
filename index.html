@@ -8,24 +8,56 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
+    <div class="hamburger-icon" id="icon">
+        <div class="icon-1" id="a"></div>
+        <div class="icon-2" id="b"></div>
+        <div class="icon-3" id="c"></div>
+        <div class="clear"></div>
+    </div>
+    <div id="Logo">        <img src="pics/SANIK Construction logo-B2.jpg" alt="LOGO"  class="logo">
+    </div>
+
+    <nav id="nav">
+        <ul>
+            <li onclick="showPanel(0)" class="list">About Us</li>
+            <li onclick="showPanel(1)">Services</li>
+            <li onclick="showPanel(2)">Projects</li>
+            <li onclick="showPanel(3)">Shop</li>
+        </ul>
+    </nav>
+
+
     <div class="headMenu">
-        <table >
+        <table>
             <td>            
-                <img src="https://static.vecteezy.com/system/resources/previews/007/631/967/original/real-estate-building-and-construction-logo-design-eps-10-free-vector.jpg" class="logo">
+                <img src="pics/SANIK Construction logo-B2.jpg" alt="LOGO"  class="logo">
             </td>
             <td class="tableHeadMenu">
                 <button onclick="showPanel(0)">About Us</button>
                 <button onclick="showPanel(1)">Services</button>
                 <button onclick="showPanel(2)">Projects</button>
                 <button onclick="showPanel(3)">Shop</button>
-            </td>
+            </td>  
         </table>
     </div>
 
     <div class="tabs">
-        <h1 style="padding-top: 3%;">About US</h1>
-        <img src="https://media.istockphoto.com/id/1041465228/photo/professional-engineer-architect-worker-with-protective-helmet-and-blueprints-paper-at-house.jpg?s=612x612&w=0&k=20&c=e84Qt0pHjgcj8Ncj62G_2U4wAECjwIKRfb05obFQwN0=">  
-            <h1>Services</h1>
+        <h1 style="padding-top: 5%;">About US</h1>
+        <div class="Centered">
+            <img src="https://cdn.discordapp.com/attachments/1052011980547969165/1052022607542751272/shutterstock_752076598.webp" width="100%">  
+            <p class="Text"> <b>SANIK Construction</b> team is the one for you if you are looking for the best experience, on time service and convenience. 
+                Our competitive pricing will not only save you money, but also show you that quality can be achieved for a lot less. 
+                We use all of our own resources like water, electricity, etc. Making sure that customers are getting exactly what they 
+                need without spending extra dime on anything. <b>Servicing New Jersey, Pennsylvania and Delaware</b>. 
+            </p>
+            <p class="Text">
+                Anything from driveway repairs, pool decks and walkways as long as you have the vision we will make it a reality. 
+                Whether it's a problem or a new idea that you need taking care of, consider it nailed.
+            </p>
+        </div>
+        <h1>Services</h1>
+        <div class="Centered">
             <table width="100%">
                 <td class="Services">
                     <div onclick="showPanel(1)" id="Landscaping" class="service-tabs" height="200px">
@@ -38,16 +70,12 @@
                     </div>
                 </td>
                 <td class="Services">
-                    <div id="Concrete" class="service-tabs">
-                        <h3>Landscaping</h3>
-                    </div>
-                </td>
-                <td class="Services">
-                    <div id="Concrete" class="service-tabs">
-                        <h3>Landscaping</h3>
+                    <div id="CleanUp" class="service-tabs">
+                        <h3>Clean Up</h3>
                     </div>
                 </td>
             </table>
+        </div>
     </div>
     <div class="tabs">
         <h1 style="padding-top: 3%;">Services</h1>
@@ -63,46 +91,42 @@
                 </div>
             </td>
             <td class="Services">
-                <div id="Concrete" class="service-tabs">
+                <div id="CleanUp" class="service-tabs">
                     <h3>Landscaping</h3>
                 </div>
             </td>
         </table>
     </div>    
     <div class="tabs">
-        <table cellspacing="40">
-            <tr>
-                <td>
-                    <h1>Arman Amirkhanyan</h1>
-                    <p>Mechanical Engineer</p>
-                    <p>Software Enthusiast</p>
-                </td>
-            </tr>
-        </table>
+        
     </div>
     <div class="tabs">
-        <table cellspacing="40">
-            <tr>
-                <td>
-                    <h1>Arman Amirkhanyan</h1>
-                    <p>Mechanical Engineer</p>
-                    <p>Software Enthusiast</p>
-                </td>
-            </tr>
-        </table>
+       
+    </div>
+
+    <div class="collapsible" id="Landscaping_expanded">
+
+    </div>
+
+    <div class="collapsible" id="Concrete_expanded">
+
+    </div>
+
+    <div class="collapsible" id="CleanUp_expanded">
+        
     </div>
 
     <div class="bottomSection">
         <table>
-            <td>
-                <tr>
-                    <img src="https://static.vecteezy.com/system/resources/previews/007/631/967/original/real-estate-building-and-construction-logo-design-eps-10-free-vector.jpg" alt="" width="150px" height="auto">
-                </tr>
-                <tr> 
-                    <p>Phone:</p>
-                    <p>Email:</p>
-                </tr>
-            </td>
+            <tr>
+                <td>
+                    <img src="pics/SANIK_Construction_logo-B2.png" alt="SANIK"  id="LogoBottom">
+                </td>
+                <td> 
+                    <p>Phone: +1 (347) 671-4562</p>
+                    <p>Email: info@sanikconstruction.com</p>
+                </td>
+            </tr>
         </table>
     </div>
 
