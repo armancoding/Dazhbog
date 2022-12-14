@@ -53,7 +53,7 @@ window.addEventListener('resize', function()
     else
     {
         icon.style.display="inline";
-        Logo.style.display="inline";
+        Logo.style.display="block";
     }
 });
 
